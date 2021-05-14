@@ -1,0 +1,7 @@
+{{template config_path="design/email/header_template"}}
+<table>
+    <tr>{{trans "Registros Enviados: %templateVar." templateVar=$templateVarCount}}</tr>
+    <tr>{{trans "Registros Correctos: %templateVar." templateVar=$templateVarSucces}}</tr>
+    <tr>{{trans "Registros Erroneos: %templateVar." templateVar=$templateVarFailed}}</tr>
+</table>
+{{template config_path="design/email/footer_template"}}
